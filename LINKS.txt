@@ -17,6 +17,12 @@ https://drive.google.com/drive/folders/11uXYlgVSu6JUbTF85X-IyOYpidBDyG-2
 Link aula virtual:
 https://aulasvirtuales.bue.edu.ar/
 
+Link de la pagina (proyecto integrador)
+https://challenge-integrador.vercel.app/
+
+Link a Figma (proyecto integrador)
+https://www.figma.com/file/IjTSeE2BpRd5Gk9VakNIhC/Challenge-Integrador---Funkoshop?type=design&node-id=19905%3A437&mode=design&t=8TcpErRKLXEDtuWw-1
+
 Tutora 
 
 Agustina Lemoine <agustina.lemoine@bue.edu.ar>
