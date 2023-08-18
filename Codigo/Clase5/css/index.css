@@ -1,0 +1,54 @@
+
+
+
+
+/* especificidad */
+
+/* .green{
+    color:green
+} */
+
+/* h1.green{
+   font-size: 50px;
+ 
+} */
+
+/* div h1{
+    font-size: 40px;
+} */
+
+/* .clase{
+    color:blue
+}
+ */
+
+/*  fuente descargada */
+/*  @font-face{
+    font-family: "Raleway",sans-serif;
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
+ }
+ */
+
+:root{
+    --titulos: green ;
+    --subtitulos:rgba(67, 138, 43, 0.899);
+
+}
+
+ h1{
+    font-family: 'Raleway', sans-serif;
+    color:#FF3333;
+
+ }
+
+p{
+    color:var(--subtitulos)
+}
+
+button{
+    color: #FFF;
+    background-color: #FF3333;
+}
+
+
+
