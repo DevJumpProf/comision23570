@@ -1,0 +1,49 @@
+*{
+/*     box-sizing: border-box; */
+    box-sizing: content-box;
+}
+
+
+p{
+    background-color: crimson;
+    color: white;
+    height: 300px;
+}
+
+li{
+    display: inline-block;
+    background-color: blueviolet;
+    margin-right:20px ;
+    height: 50px;
+    width: 150px;
+
+}
+
+span{
+    background-color: blue;
+    color: yellow;
+/*     height: 300px; */
+
+margin-right: 20px;
+
+}
+
+.invisible{
+    display: none;
+}
+
+
+/* width = ANCHO
+height = ALTO
+MARGIN = MARGEN */
+
+/* top arriba
+left izq
+rigth derecha
+botton abajo */
+
+/* 3 cosas
+modelo de caja - box modeling
+FLEX 
+GRID */
+
