@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a:visited{
+    color:red
+}
+.card{
+    width: 350px;
+    margin: 10rem auto;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    padding: 3rem;
+    position: relative;
+/*     transition:all 1.5s linear; */
+animation: pendulo 3s ease-in-out
+
+}
+
+@keyframes pendulo {
+    0%{
+        transform-origin: left top;
+        transform: rotate(170deg);
+    }
+
+     
+    25%{
+        transform: rotate(-50deg);  
+
+    }
+    75%{
+        transform: rotate(170deg);  
+
+    }
+    100%{
+        transform: rotate(0deg);  
+    } 
+    
+}
+/* .card:hover{
+    
+transform:skew(20deg,10deg)
+
+}  */
+
+img{
+    width:  100%
+}
+
+.card-image{
+    display: block;
+    padding: 1.5rem;
+}
+
+.card-data{
+    padding: 1.5rem;
+}
+
+.card .card-data p{
+    margin: .8rem 0;
+}
+
+.tag{
+    background-color: orangered;
+    color: white;
+    border: 2px solid black;
+    width: 100px;
+    padding: 1.2em;
+    position: absolute;
+    top: -1%;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
