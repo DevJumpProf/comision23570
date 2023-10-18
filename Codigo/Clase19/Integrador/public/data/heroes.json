@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name":"Bruce",
+        "lastName": "Wayne",
+        "alias":"Batman"
+    },
+    {
+        "id":2,
+        "name":"Clark",
+        "lastName": "Kent",
+        "alias":"Superman"
+    },
+    {
+        "id":3,
+        "name":"Diana",
+        "lastName": "Prince",
+        "alias":"Wonder Woman"
+    }
+]
