@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include("./partials/head") %>
+
+<body>
+
+     <%-include("./partials/header")   %>
+    <h1>Estas en la vista ejs <%=titulo%></h1>
+    <%-include("./partials/footer")   %>
+
+<% if (4<5) {%>
+<h2> 4 es menor a 5</h2>
+    <% }%>
+
+    <!--   <%let nombre = "pepe"%> -->
+    <h2> hola <%=nombre%></h2>
+
+    <% for (let i = 0; i<5;i++) {  %>
+  <p>vuelta <%=i+1%></p>
+        <% }%>
+
+</body>
+</html>
+
+
+
+<!-- <%=variables%>
+<%javascript%>
+<%-incluides (vista)>
+ -->
