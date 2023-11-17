@@ -22,10 +22,9 @@ let {id,bio} = req.params;
 heroes.forEach(heroe=>{
    if(bio=="bio" && id ==heroe.id){
     res.send (heroe.resenia)
-   } else if (bio!=="bio" &&heroe.id){
-    res.send (`${heroe.nombre} lamenta que no quieras ver su id`)
+   } else if (bio!=="bio" &&id==heroe.id){
+    res.send (`${heroe.nombre} lamenta que no quieras ver su bio`)
    }
-
 })
-  },
+  }
 };
