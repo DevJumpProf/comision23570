@@ -67,3 +67,5 @@ Entonces la diferencia es express.json() es un analizador de cuerpo para la soli
 En criptografía, el salt es un agregado de random data que se concatena a una password antes de ser hasheada, con el objetivo de impedir ataques de fuerza bruta con diccionario
 
  se refiere a agregar datos aleatorios a la entrada de una función para garantizar una salida única, el hash, incluso cuando las entradas son las mismas. En la protección por contraseña, salt es una cadena de datos aleatoria que se utiliza para modificar un hash de contraseña.
+
+ 
